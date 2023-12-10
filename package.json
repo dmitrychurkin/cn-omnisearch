@@ -1,5 +1,5 @@
 {
-  "name": "cn-omnisearch",
+  "name": "@cn/omnisearch",
   "version": "1.0.0",
   "description": "CuddlyNest omnisearch plugin",
   "author": "dmitrychurkin",

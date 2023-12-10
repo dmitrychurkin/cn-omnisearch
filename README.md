@@ -7,22 +7,7 @@
 ## Install
 
 ```bash
-npm install --save cn-omnisearch
-```
-
-## Usage
-
-```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'cn-omnisearch'
-import 'cn-omnisearch/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+npm install --save @cn/omnisearch
 ```
 
 ## License
