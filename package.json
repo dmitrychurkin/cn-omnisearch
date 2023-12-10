@@ -15,6 +15,7 @@
     "node": ">=10"
   },
   "scripts": {
+    "postinstall": "husky install",
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prettify": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
@@ -61,7 +62,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-standard": "^4.1.0",
     "gh-pages": "^6.1.0",
-    "husky": "^4.3.8",
+    "husky": "^8.0.3",
     "jest": "^29.7.0",
     "jest-canvas-mock": "^2.5.2",
     "jest-environment-jsdom": "^29.7.0",
